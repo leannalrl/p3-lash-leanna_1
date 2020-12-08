@@ -1,7 +1,7 @@
-class Lunch Generator {
+class Lunch_Generator {
   constructor(lunchContent){
     this.lunchContent = lunchContent;
   }
 }
 
-export const lunch = new Lunch Generator('lunch');
+export const lunch = new Lunch_Generator('lunch');
