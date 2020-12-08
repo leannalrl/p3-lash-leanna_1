@@ -8,7 +8,13 @@ class App {
   }
 
   renderTemplate(){
+    const template = `
+      <h1>${header.title}</h1>
+      <p>${lunch.lunchContent}</p>
+      <footer>${footer.footerContent}</footer>
+    `;
 
+    document.body.innerHTML = template;
   }
 }
 
